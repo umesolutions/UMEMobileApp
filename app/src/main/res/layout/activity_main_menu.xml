@@ -1,0 +1,132 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"  android:background="@drawable/background">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textSize="18dp"
+            android:textStyle="bold" >
+        </TextView>
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/nine" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/two"
+            android:clickable="false" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/three"
+            />
+        <ImageButton
+            android:id="@+id/imageButton24"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/four"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageButton31"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/five"
+            />
+        <ImageButton
+            android:id="@+id/imageButton32"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/six"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageButton201"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/seven"
+            />
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/eight"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/ten"
+            />
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:cropToPadding="false"
+            android:src="@drawable/exit"
+            />
+
+    </TableRow>
+
+</TableLayout>
