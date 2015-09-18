@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"  android:background="@drawable/background">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  android:background="@drawable/background">
+
+        <!--          Header  Starts
+                <LinearLayout android:id="@+id/header"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/header_gradient"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip">
+                     Logo Start
+                    <ImageView android:src="@drawable/logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"/>
+                     Logo Ends
+                </LinearLayout>
+                  Header Ends
+                 Footer Start
+                <LinearLayout android:id="@+id/footer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="90dip"
+                    android:background="@layout/footer_repeat"
+                    android:layout_alignParentBottom="true">
+                </LinearLayout>
+                 Footer Ends -->
+
+        <!-- Registration Form -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:id="@+id/jj">
+            <TextView android:text="Registration - Attachments" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview"
+                android:textSize="22dp"
+                android:layout_alignParentTop="true"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal" />
+            <!-- Full Name Label -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp" >
+                <Button
+                    android:id="@+id/poi_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Proof of Identify Documents" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+                <ImageView
+                    android:id="@+id/poi_image1"
+                    android:src="@drawable/ic_launcher"
+                    android:minHeight="200px"
+                    android:minWidth="200px"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:adjustViewBounds="true"/>
+                <ImageView
+                    android:id="@+id/poi_image2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/ic_launcher"
+                    android:minHeight="200px"
+                    android:minWidth="200px"
+                    android:adjustViewBounds="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp" >
+                <Button
+                    android:id="@+id/poa_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Proof of Address Documents" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+                <ImageView
+                    android:id="@+id/poa_image1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/ic_launcher"
+                    android:minHeight="200px"
+                    android:minWidth="200px"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/poa_image2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/ic_launcher"
+                    android:minHeight="200px"
+                    android:minWidth="200px"
+                    android:adjustViewBounds="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp" >
+                <Button
+                    android:id="@+id/btn_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Speciman of Signature" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+                <ImageView
+                    android:id="@+id/sign_image"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/ic_launcher"
+                    android:minHeight="200px"
+                    android:minWidth="200px"
+                    android:adjustViewBounds="true"/>
+            </LinearLayout>
+            <Button android:id="@+id/reg4_btnSubmit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Complete "
+                android:enabled="true" />
+
+        </LinearLayout>
+        <!-- Registration Form Ends -->
+    </RelativeLayout>
+</ScrollView>
